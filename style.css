@@ -1,0 +1,34 @@
+body {
+  color: #6c09f6;
+  background: linear-gradient(
+    0deg,
+    rgb(195, 162, 74) 0%,
+    rgb(216, 161, 22) 45%,
+    rgb(238, 169, 8) 71%
+  );
+}
+#head1 {
+  background: #22c1c3;
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(212, 201, 167, 1) 45%,
+    rgba(253, 187, 45, 1) 71%
+  );
+}
+input::placeholder {
+  color: rgb(0, 255, 4);
+}
+input:required {
+  border: 2px solid rgb(255, 0, 0);
+}
+form {
+  width: 500px;
+}
+fieldset {
+  border-radius: 20px;
+  border: 2px solid rgb(18, 190, 234);
+}
+input:optional {
+  border: 5px dashed rgb(175, 26, 78);
+}
